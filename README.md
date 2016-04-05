@@ -1,58 +1,78 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+<h1 align="center">
+	<img width="594" src="https://cdn.rawgit.com/derimagia/awesome-alfred-workflows/master/media/header.gif" alt="awesome-alfred-workflows">
+	<br>
+</h1>
 
 A curated list of Awesome Alfred Workflows.
 
 ## Table of Contents
 - [Communication](#communication)
 - [Developer](#developer)
+- [Text manipulation](#text-manipulation)
+- [Scientific](#scientific)
 - [Miscellaneous](#miscellaneous)
 - [Security](#security)
 - [System](#system)
 - [Other Lists](#other-lists)
 
-# Communication
+## Communication
 - [Adium](http://www.alfredforum.com/topic/1274-adium-workflow/) - Adium workflow to chat with people on your list.
+- [Slack](https://github.com/fspinillo/slackfred) - Alfred workflow to interact, and perform various functions with the service Slack.
 
-# Developer
+## Developer
 - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow) - Caniuse.com workflow to query HTML / CSS support.
 - [CDN](https://github.com/willfarrell/alfred-cdn-workflow) - Check which CDNs a package is hosted on.
 - [Colors](http://www.packal.org/workflow/colors) - Convert color formats & access the OS X color panel.
 - [Dash](https://kapeli.com/dash) - Include in App. Allows you to query Dash for Developer Documentation.
-- [Encode / Decode](https://github.com/willfarrell/alfred-encode-decode-workflow) - Transform your query strings through base64, html, url, and utf-8 encode/decode.
 - [Font Awesome](https://github.com/ruedap/alfred2-font-awesome-workflow) - Quickly look up font awesome icons and add the desired one to your clipboard.
-- [HTML Entity Lookup](https://github.com/ajgon/alfred2-html-entity-lookup) - Search for entity characters based on how they look or by name.
+- [Github] (https://github.com/gharlan/alfred-github-workflow) - GitHub command bar, similiar to the command bar in Github.
 - [JetBrains](https://github.com/bchatard/jetbrains-alfred-workflow) - Open project with one of JetBrains' product.
 - [Package Managers](https://github.com/willfarrell/alfred-pkgman-workflow) - Package Repo Search.
 - [Source Tree](https://github.com/zhaocai/alfred2-sourcetree-workflow) - Alfred 2 Workflow to list, search, and open Source Tree repositories in Alfred.
 - [VagrantUP](https://github.com/m1keil/alfred-vagrant-workflow) - List and control Vagrant environments with Alfred2.
 
-# Miscellaneous
+## Text Manipulation
+- [Encode / Decode](https://github.com/willfarrell/alfred-encode-decode-workflow) - Transform your query strings through base64, html, url, and utf-8 encode/decode.
+- [Funnel](http://www.packal.org/workflow/funnel) - Funnel selected text or a file through various filters.
+- [HTML Entity Lookup](https://github.com/ajgon/alfred2-html-entity-lookup) - Search for entity characters based on how they look or by name.
+- [Pandoctor](https://github.com/smargh/alfred_pandoctor) - Alfred interface to [pandoc](http://pandoc.org), a tool that allows to convert between text formats (Markdown, LaTeX, DOC, DOCX, ...)
+- [Unicode Text Search](https://github.com/bevesce/unicode-symbols-search) - Search for Unicode Symbols.
+
+## Scientific
+- [Alfred Scientific Workflow](https://github.com/andrewning/alfred-workflows-scientific) - Workflows that are useful for scientists: e.g. LaTeX, importing references in bibtex, ...
+- [DOITools](https://github.com/hbuschme/doi-tools-alfred-workflow/) - Tools to resolve, open, shorten DOI numbers and even convert them to bibtex.
+- [Skim remote](http://www.packal.org/workflow/skim-remote) - Controls the [Skim PDF Viewer](http://skim-app.sourceforge.net) remotely from Alfred.
+- [Units](http://designandsuch.com/work/alfred-workflow-units) - Convert between physical units.
+
+## Miscellaneous
 - [IncognitoClone](http://www.packal.org/workflow/incognitoclone) - Opens Chrome’s frontmost tab in an incognito window.
 - [WebScreenshot](http://www.packal.org/workflow/webscreenshot) - Take screenshots directly to imgur.
 
-# Security
-- [LastPass Vault Manager](A workflow to interact with a LastPass vault) - A workflow to interact with a LastPass vault.
+## Security
+- [LastPass Vault Manager](https://github.com/bachya/lp-vault-manager) - A workflow to interact with a LastPass vault.
+- [Random MAC](http://www.packal.org/workflow/random-mac) - Assigns a random MAC address to `en0` (e.g. for free wifi).
 - [TemporaryEmail](http://www.packal.org/workflow/temporaryemail) - Get a temporary email inbox from Teleosaurs Mail.
-- [TerminalFinder](https://github.com/LeEnno/alfred-terminalfinder) - Alfred workflow to open current Finder window in Terminal/iTerm and vice versa.
 
-# System
+## System
 - [AppFreeze](http://www.packal.org/workflow/appfreeze) - Pauses and resumes execution of the frontmost app.
 - [Copy Paths to Clipboard](https://github.com/franzheidl/copy-paths-to-clipboard) - Copy Current File Paths to Clipboard as POSIX, HFS, or File URLs.
-- [Funnel](http://www.packal.org/workflow/funnel) - Funnel selected text or a file through various filters.
+- [Keylue](https://github.com/zhaocai/alfred2-keylue-workflow) - Key Clue, Menu Bar and Keyboard Maestro Hot Key Search
 - [Network Info](http://www.packal.org/workflow/network-info) -  Display ip addresses or mac addresses for all network interfaces.
-- [Menu Bar Search](http://www.packal.org/workflow/menu-bar-search) - Search for and activate application menu items for the frontmost application.
+- [SSH](https://github.com/isometry/alfredworkflows/tree/master/net.isometry.alfred.ssh) - Autocompletes SSH sessions based on `~/.ssh/known_hosts`, `~/.ssh/config` and `/etc/hosts`
+- [TerminalFinder](https://github.com/LeEnno/alfred-terminalfinder) - Alfred workflow to open current Finder window in Terminal/iTerm and vice versa.
 
-# Other Lists
+## Other Lists
 Here are a list of other collections of alfred collections which are useful.
 
+- [AlfredWorkflow.com](http://alfredworkflow.com) - List of Alfred Workflows.
 - [Ctwise Alfred Workflows](https://github.com/ctwise/alfred-workflows) - Workflows from the Github user "ctwise".
 - [Packal](http://www.packal.org/) - The biggest place to find Workflows.
 - [Vítor Galvão’s Alfred Workflows](https://github.com/vitorgalvao/alfred-workflows/) - Workflows from the Github user "vitorgalvao".
 
-# Contributing
+## Contributing
 [See the guide](https://github.com/derimagia/awesome-alfred-workflows/blob/master/CONTRIBUTING.md)
 
-# License
+## License
 <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
 <img src="https://licensebuttons.net/p/mark/1.0/88x31.png"
      style="border-style: none;" alt="Public Domain Mark" />
